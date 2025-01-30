@@ -1,0 +1,792 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.35f1 (9a3bc604008a) revision 10107846'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'da' Physical Memory: 31864 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker25
+-projectPath
+C:/Users/jejol/first project
+-logFile
+Logs/AssetImportWorker25.log
+-srvPort
+51789
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/jejol/first project
+C:/Users/jejol/first project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [50244]  Target information:
+
+Player connection [50244]  * "[IP] 172.28.112.1 [Port] 0 [Flags] 2 [Guid] 1647146247 [EditorId] 1647146247 [Version] 1048832 [Id] WindowsEditor(7,Jenjos_Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [50244]  * "[IP] 192.168.18.13 [Port] 0 [Flags] 2 [Guid] 1647146247 [EditorId] 1647146247 [Version] 1048832 [Id] WindowsEditor(7,Jenjos_Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [50244] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [50244] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.35f1 (9a3bc604008a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jejol/first project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2860)
+    Vendor:   NVIDIA
+    VRAM:     7948 MB
+    Driver:   32.0.15.6100
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004172 seconds.
+- Loaded All Assemblies, in  0.254 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.309 seconds
+Domain Reload Profiling: 562ms
+	BeginReloadAssembly (83ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (100ms)
+		LoadAssemblies (81ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (88ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (310ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (275ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (160ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.510 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-first project
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.649 seconds
+Domain Reload Profiling: 1155ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (233ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (106ms)
+			BuildScriptInfoCaches (34ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (649ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (493ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (289ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 219 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6317 unused Assets / (7.5 MB). Loaded Objects now: 6990.
+Memory consumption went from 169.4 MB to 161.9 MB.
+Total: 15.440200 ms (FindLiveObjects: 1.188200 ms CreateObjectMapping: 0.922000 ms MarkObjects: 7.728800 ms  DeleteObjects: 5.597300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 331509.746955 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Mushroom_05.prefab
+  artifactKey: Guid(b4bb0b2e54fe9a944b3076047ec8f71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Mushroom_05.prefab using Guid(b4bb0b2e54fe9a944b3076047ec8f71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b145c86c848c697cc900614198ce6e50') in 0.3803969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.110990 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Mushroom_07.fbx
+  artifactKey: Guid(25c8272a495732a4d94059c817a762c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Mushroom_07.fbx using Guid(25c8272a495732a4d94059c817a762c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a589f2d8ddf191138380b663dbff95b') in 0.0577891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Mushroom_14.prefab
+  artifactKey: Guid(badba2fb5ba3c5e40a804e3e4802e379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Mushroom_14.prefab using Guid(badba2fb5ba3c5e40a804e3e4802e379) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46ea31371e5059a8fe01b481d615823d') in 0.0205549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Mushroom_16.fbx
+  artifactKey: Guid(ba83b5e0862536f4ea00ab006c056ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Mushroom_16.fbx using Guid(ba83b5e0862536f4ea00ab006c056ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5866185dad20c31d65d4c5c271076830') in 0.0289907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.573772 seconds.
+  path: Assets/Lowpoly_Holiday_House/Prefabs/Palm_4.prefab
+  artifactKey: Guid(fc3f072f27a7b5e47b69a3682febdf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly_Holiday_House/Prefabs/Palm_4.prefab using Guid(fc3f072f27a7b5e47b69a3682febdf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1e1efca23f753e7b32fbaf3300dda67') in 0.0274429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025449 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Pot_03.prefab
+  artifactKey: Guid(7011085b75357e743ab97fa702775f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Pot_03.prefab using Guid(7011085b75357e743ab97fa702775f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd08b4f1f7494dfa0f61e78476b74f7b8') in 0.0238822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/PottedPlants_01.fbx
+  artifactKey: Guid(451b5f724d87afa488f6aa730f47a202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/PottedPlants_01.fbx using Guid(451b5f724d87afa488f6aa730f47a202) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '040978bd19a1a5b6f9f36afb8b341f0a') in 0.0266613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063402 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/PotteryJar_03.fbx
+  artifactKey: Guid(2771f244fc9d8d0489396f5f698c47e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/PotteryJar_03.fbx using Guid(2771f244fc9d8d0489396f5f698c47e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f1c9801bd91bada05b628e6a937fb37') in 0.0258995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.354129 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Rock_02.prefab
+  artifactKey: Guid(f5a25ce826b191a488244faefa290f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Rock_02.prefab using Guid(f5a25ce826b191a488244faefa290f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '215e952b70ccce95946022e702c2ad93') in 0.0199181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018154 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Rock_04.fbx
+  artifactKey: Guid(360d844312ef6394c991b675f227271e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Rock_04.fbx using Guid(360d844312ef6394c991b675f227271e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85bc4918d8ca6c9f544ce54e71f71439') in 0.0230191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Rock_06.fbx
+  artifactKey: Guid(86f66ff282e22d741ad40396685281fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Rock_06.fbx using Guid(86f66ff282e22d741ad40396685281fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8c2241856baf9ea3024d4209eee50a4') in 0.0251997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_9/Saddle/Prefabs/Saddle_Dark.prefab
+  artifactKey: Guid(403f8199e2eea274e8fbd3cac9e97696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_9/Saddle/Prefabs/Saddle_Dark.prefab using Guid(403f8199e2eea274e8fbd3cac9e97696) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42fbeafa77ef07ad999f479fadbf0161') in 0.024195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017039 seconds.
+  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Trees/spherical tree.prefab
+  artifactKey: Guid(2d7058e6e51f33b40a88493480895edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Trees/spherical tree.prefab using Guid(2d7058e6e51f33b40a88493480895edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b72f380f8b64d08bca69512b5c90575') in 0.0200288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010718 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/SpringTree_03.fbx
+  artifactKey: Guid(59ca38a9289546a4b8e7c65732f99418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/SpringTree_03.fbx using Guid(59ca38a9289546a4b8e7c65732f99418) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1d582471c4ee1cdfb254805f9270fad') in 0.0245964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/SpringTree_06.prefab
+  artifactKey: Guid(2c393df2745c4b4459c4586dbc1d1f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/SpringTree_06.prefab using Guid(2c393df2745c4b4459c4586dbc1d1f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '953c2e7f2dcc68f94f710de8a6aa388c') in 0.020812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Palmov Island/Low Poly Environment Park/Models/Stones/stone 3.fbx
+  artifactKey: Guid(9e9b1fae7ec11ad418831097603aae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Environment Park/Models/Stones/stone 3.fbx using Guid(9e9b1fae7ec11ad418831097603aae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d455ca9599c839c7c64cd10d8f092c8') in 0.0252003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Animations/SwordAndShieldPack/sword and shield slash (5).fbx
+  artifactKey: Guid(0efea9524a1a7eb47be82a64b8e7cdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animations/SwordAndShieldPack/sword and shield slash (5).fbx using Guid(0efea9524a1a7eb47be82a64b8e7cdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e923c37d9f2f360652d0bd14ae6374f') in 0.0051578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 139
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Palmov Island/Low Poly Environment Park/Models/Stones/stone 5.fbx
+  artifactKey: Guid(90e09742c7ce16247acd04681cc6dc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Environment Park/Models/Stones/stone 5.fbx using Guid(90e09742c7ce16247acd04681cc6dc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0b26464e61e57fb75e7a63decf855c3') in 0.0243983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.510540 seconds.
+  path: Assets/Palmov Island/Low Poly Environment Park/Models/Trees/tree orange foliage.fbx
+  artifactKey: Guid(d5bd0a2277189ce4d8bcc85c6b7df6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Environment Park/Models/Trees/tree orange foliage.fbx using Guid(d5bd0a2277189ce4d8bcc85c6b7df6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6765f8ebde766cc64684eaee3615b210') in 0.0245127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Trees/tree swing.prefab
+  artifactKey: Guid(20c219df061c967429db241b1ea3a026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Trees/tree swing.prefab using Guid(20c219df061c967429db241b1ea3a026) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a80bf19f1a8ae75837399ec5c89bf7e4') in 0.017361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Meshes/Source/tree_1.fbx
+  artifactKey: Guid(4735160b42a3154428094dff59ef0f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Meshes/Source/tree_1.fbx using Guid(4735160b42a3154428094dff59ef0f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f93ae96360d3ae7ba52218bc77987fa') in 0.0629161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.333514 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Trunk_03.fbx
+  artifactKey: Guid(26f203441e54db14d931ecf13fcb6b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Trunk_03.fbx using Guid(26f203441e54db14d931ecf13fcb6b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1f8f4402a011c813778ccd6a6290de1') in 0.0197513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/TrunkFence_03.prefab
+  artifactKey: Guid(d291d860c607d214580d4535300dc95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/TrunkFence_03.prefab using Guid(d291d860c607d214580d4535300dc95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '006a38a4129bc74f783edb7a99127aad') in 0.0183777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/WateringKettle_01.fbx
+  artifactKey: Guid(eddb0864f4fa79647aa27cb6f9c35f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/WateringKettle_01.fbx using Guid(eddb0864f4fa79647aa27cb6f9c35f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40e4aabd7a659bfeac765fe7e5887de4') in 0.0212676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/WinterFallenTree_02.fbx
+  artifactKey: Guid(4f2d15306d6dd41488ebfd9687b860ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/WinterFallenTree_02.fbx using Guid(4f2d15306d6dd41488ebfd9687b860ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99db54cf2a1ecc55a8b73ae9ee03c315') in 0.0206396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/WinterTree_03.prefab
+  artifactKey: Guid(a4865b001daa7cc4595d3e723d51c066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/WinterTree_03.prefab using Guid(a4865b001daa7cc4595d3e723d51c066) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff10f842b38d5e0b7d137a44d47aba75') in 0.0169699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/WinterTree_05.fbx
+  artifactKey: Guid(66bacc6568f36dc4f9b78f75702229f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/WinterTree_05.fbx using Guid(66bacc6568f36dc4f9b78f75702229f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71dfa86a418437cb4e35407da07c6da5') in 0.0238115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.498237 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/WoodenFence_01.fbx
+  artifactKey: Guid(85fff4bbc91c66d41a362638ca700f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/WoodenFence_01.fbx using Guid(85fff4bbc91c66d41a362638ca700f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f199fe78377cdef3ee2bbf335a7dfab2') in 0.0265849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.474587 seconds.
+  path: Assets/TerrainData_55add134-c6da-4170-8b9f-c9917561620d.asset
+  artifactKey: Guid(20d218f3afe8a894e88d1d770da0eab3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainData_55add134-c6da-4170-8b9f-c9917561620d.asset using Guid(20d218f3afe8a894e88d1d770da0eab3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)The tree AutumnTree_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 354]
+
+The tree AutumnTree_04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 354]
+
+ -> (artifact id: 'a33f0e71e5371ce4e0287a1b88ac93a9') in 0.2655238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Bamboo_02.prefab
+  artifactKey: Guid(75e7e3b593d74ca428f2aa331302da72) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Bamboo_02.prefab using Guid(75e7e3b593d74ca428f2aa331302da72) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '1266a39c3678f82065cab29c5551fd44') in 0.0259248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Brick_04.prefab
+  artifactKey: Guid(cf33a74c809d883448531cd55144d380) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Brick_04.prefab using Guid(cf33a74c809d883448531cd55144d380) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7689618c6239d80712b2f1d16c5fd07c') in 0.0158098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Lowpoly_Holiday_House/Prefabs/Border.prefab
+  artifactKey: Guid(66b0275cee2373c448373f0fdbbce7c5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Lowpoly_Holiday_House/Prefabs/Border.prefab using Guid(66b0275cee2373c448373f0fdbbce7c5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '1deb4316513f5672e1a6dcfc275be8e3') in 0.0154185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Lowpoly_Holiday_House/Materials/Clumbs.mat
+  artifactKey: Guid(e053ed14c17296742adb69e24a7a8367) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Lowpoly_Holiday_House/Materials/Clumbs.mat using Guid(e053ed14c17296742adb69e24a7a8367) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9cdce6deff5f7829862880bdc091d6ae') in 0.0223365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/AutumnTree_02.prefab
+  artifactKey: Guid(150882436c9041546938c2d44ac9acd3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/LowpolyNatureBundle/Prefab/AutumnTree_02.prefab using Guid(150882436c9041546938c2d44ac9acd3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '295e44ab57bd03e439cdd12b5dd9e593') in 0.0173333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Lowpoly_Holiday_House/Prefabs/Cylinder.prefab
+  artifactKey: Guid(827f8802f3a27a840bf3aa710689b953) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Lowpoly_Holiday_House/Prefabs/Cylinder.prefab using Guid(827f8802f3a27a840bf3aa710689b953) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43f7b6238ef935ee493cd41ece4ec006') in 0.0706814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Lowpoly_Holiday_House/Textures/Airing.tif
+  artifactKey: Guid(eeb27d74d39a57940838e9e5275d0261) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Lowpoly_Holiday_House/Textures/Airing.tif using Guid(eeb27d74d39a57940838e9e5275d0261) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ce97bef3fe7011f122f3701564600f8') in 0.1182161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Pot_04.prefab
+  artifactKey: Guid(3d6b8f6192b059a4b9a5c907f681c34e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Pot_04.prefab using Guid(3d6b8f6192b059a4b9a5c907f681c34e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '70d0ea5bb0a990c1822f362b696e2c5b') in 0.0199168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/WinterFallenTree_01.prefab
+  artifactKey: Guid(1b9c972be329d1244aa626c5c68ea198) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyNatureBundle/Prefab/WinterFallenTree_01.prefab using Guid(1b9c972be329d1244aa626c5c68ea198) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d39d3e0008b1e67436e3c3c2bbbe674') in 0.0308513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Pot_01.prefab
+  artifactKey: Guid(31ccf4100711cf9419e2696b77333dce) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Pot_01.prefab using Guid(31ccf4100711cf9419e2696b77333dce) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'b1d702df9e26fbd06fe0b02dc4c58026') in 0.03343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Bush_01.prefab
+  artifactKey: Guid(bc9a8167c749fce4782ca2092a689f5a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Bush_01.prefab using Guid(bc9a8167c749fce4782ca2092a689f5a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f4a62b2416171b6b0625fd52c2a9244d') in 0.0255869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Mushroom_04.prefab
+  artifactKey: Guid(24ce9f3cb4ceb2347a03564034d1b2f0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Mushroom_04.prefab using Guid(24ce9f3cb4ceb2347a03564034d1b2f0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '381370572a6a41bd74d73e3cba7037c7') in 0.0219988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/WinterTree_05.prefab
+  artifactKey: Guid(764031d5685bffa4da74aaa25a3adfd7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/LowpolyNatureBundle/Prefab/WinterTree_05.prefab using Guid(764031d5685bffa4da74aaa25a3adfd7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '90f4cbd292ec9de46f16acd40ae43663') in 0.0254189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/TrunkStack_01.prefab
+  artifactKey: Guid(81e152245eda4364f8a0bdac4999dfb4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/LowpolyNatureBundle/Prefab/TrunkStack_01.prefab using Guid(81e152245eda4364f8a0bdac4999dfb4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '242dda693b2744a46b0af7b5916788f3') in 0.0223053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TerrainData_11b70e08-11ed-4044-8c9f-f2e1c6b3f4b7.asset
+  artifactKey: Guid(3127ff3b322cf9e4295a8af840a9d8c4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TerrainData_11b70e08-11ed-4044-8c9f-f2e1c6b3f4b7.asset using Guid(3127ff3b322cf9e4295a8af840a9d8c4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)The tree AutumnTree_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 354]
+
+The tree AutumnTree_04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 354]
+
+ -> (artifact id: '183d975bceef38e140314a1a2dfaaeda') in 0.0283397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Bamboo_03.prefab
+  artifactKey: Guid(a8a2e88e62971994fa9fcf4aced222e5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Bamboo_03.prefab using Guid(a8a2e88e62971994fa9fcf4aced222e5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '505c0b9ff0721eba3fed37c10e086492') in 0.024227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Lowpoly_Holiday_House/Textures/Tile_1.tif
+  artifactKey: Guid(290bc24ccb6ead547914313786fece4d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Lowpoly_Holiday_House/Textures/Tile_1.tif using Guid(290bc24ccb6ead547914313786fece4d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55ee22fcb728c6a1e50bcdf53e14cef5') in 0.0325059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Lowpoly_Holiday_House/Models/Cylinder.FBX
+  artifactKey: Guid(4de0b522395615b42be4124eb9836a29) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Lowpoly_Holiday_House/Models/Cylinder.FBX using Guid(4de0b522395615b42be4124eb9836a29) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec05d42d324679339b840dc9d500d384') in 0.0729078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Lowpoly_Holiday_House/Models/Shutter_4.FBX
+  artifactKey: Guid(d4082ea3bf891fc4eb3b3c77d71c86a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Lowpoly_Holiday_House/Models/Shutter_4.FBX using Guid(d4082ea3bf891fc4eb3b3c77d71c86a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69fc6b0aba3a11442edf558753d46381') in 0.0278877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/WoodenStool_01.prefab
+  artifactKey: Guid(912f73c1e7c285445980da9cacdb9a33) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/LowpolyNatureBundle/Prefab/WoodenStool_01.prefab using Guid(912f73c1e7c285445980da9cacdb9a33) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '2ee65affb7c53366a64d80fdf57e99c3') in 0.017127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Lowpoly_Holiday_House/Materials/Walls_1.mat
+  artifactKey: Guid(03a9ce7640dac0e459df0f26385093d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Lowpoly_Holiday_House/Materials/Walls_1.mat using Guid(03a9ce7640dac0e459df0f26385093d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7f0ef0f149fd976e90b0b6adfafaa5b') in 0.0213381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Lowpoly_Holiday_House/Models/Airing_3.FBX
+  artifactKey: Guid(cb2c352f3bbb9084e8e6d7da25ea7dee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Lowpoly_Holiday_House/Models/Airing_3.FBX using Guid(cb2c352f3bbb9084e8e6d7da25ea7dee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05435281aeb27dc99b53d9893e82b6f9') in 0.0251858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Mushroom_06.prefab
+  artifactKey: Guid(b106dc6100ce217419c4ce6320493f42) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Mushroom_06.prefab using Guid(b106dc6100ce217419c4ce6320493f42) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'ce2be5b89345645d5316092fd98d877c') in 0.0212826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Lowpoly_Holiday_House/Materials/Tile_1.mat
+  artifactKey: Guid(c6cc76a5362a2b44c8cb3d0c21631ab4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Lowpoly_Holiday_House/Materials/Tile_1.mat using Guid(c6cc76a5362a2b44c8cb3d0c21631ab4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee96a70b635004f57b000c4f13f4428c') in 0.0185478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/WoodenFence_03.prefab
+  artifactKey: Guid(ac803e9f881a2584ba668e427bbead84) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyNatureBundle/Prefab/WoodenFence_03.prefab using Guid(ac803e9f881a2584ba668e427bbead84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '973129336d325fa890deaebcea0c6673') in 0.0220878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Lowpoly_Holiday_House/Textures/Brick_walls_2.tif
+  artifactKey: Guid(37b11d6fda5d94340ad104117054809b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Lowpoly_Holiday_House/Textures/Brick_walls_2.tif using Guid(37b11d6fda5d94340ad104117054809b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5de8f3180ff50eba3edfccc56ce6cbd') in 0.028584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Rock_04.prefab
+  artifactKey: Guid(2ef75b4e11b3ac34291fcb9eda291e4d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyNatureBundle/Prefab/Rock_04.prefab using Guid(2ef75b4e11b3ac34291fcb9eda291e4d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '322a0686dba52dd9b55983b3a4ea7502') in 0.0235236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Brick_02.prefab
+  artifactKey: Guid(9776b104b265ab840ba68ec715a786ea) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Brick_02.prefab using Guid(9776b104b265ab840ba68ec715a786ea) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'ba1efa5332c236a84cd27321c357f994') in 0.0326131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Lowpoly_Holiday_House/Materials/Walls_2_3.mat
+  artifactKey: Guid(39f16c90d754612448000e32be60b882) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Lowpoly_Holiday_House/Materials/Walls_2_3.mat using Guid(39f16c90d754612448000e32be60b882) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d254e1e07b6de2b236ee2b4ef489cca') in 0.0367019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/FoodTrough_Empty.prefab
+  artifactKey: Guid(fb4ee7528b67c7342993098b8b09b79a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/LowpolyNatureBundle/Prefab/FoodTrough_Empty.prefab using Guid(fb4ee7528b67c7342993098b8b09b79a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '4b8b97e868b86fbb487c2c9b7396283b') in 0.0234795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Lowpoly_Holiday_House/Prefabs/Wall_clumb.prefab
+  artifactKey: Guid(a493dbe51f7dff9479d33117838b83c1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Lowpoly_Holiday_House/Prefabs/Wall_clumb.prefab using Guid(a493dbe51f7dff9479d33117838b83c1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'b2e95519a6669022cd5e99e5e61c3172') in 0.0222006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Branch_02.prefab
+  artifactKey: Guid(b3499e7c3769cde44bf8ec2f17ac3d92) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Branch_02.prefab using Guid(b3499e7c3769cde44bf8ec2f17ac3d92) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '1a7e886a431ef162bed4c3f51198724e') in 0.0200578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Lowpoly_Holiday_House/Materials/Wall_clumb.mat
+  artifactKey: Guid(2a1402e85fa59f2419152624ff8723c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Lowpoly_Holiday_House/Materials/Wall_clumb.mat using Guid(2a1402e85fa59f2419152624ff8723c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f683966fd70106491833ad4f0346a714') in 0.0247946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/WoodenWheel_01.fbx
+  artifactKey: Guid(623682594c5c3524cbf075b84b1772af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyNatureBundle/Mesh/WoodenWheel_01.fbx using Guid(623682594c5c3524cbf075b84b1772af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8839f963a529f1a7db52f944e6da1515') in 0.0280513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/WinterFallenTree_01.prefab
+  artifactKey: Guid(1b9c972be329d1244aa626c5c68ea198) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/LowpolyNatureBundle/Prefab/WinterFallenTree_01.prefab using Guid(1b9c972be329d1244aa626c5c68ea198) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'b7eda08a4aaa04d8b1e45f9a86db3f7c') in 0.0203275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Lowpoly_Holiday_House/Prefabs/Palm_4.prefab
+  artifactKey: Guid(fc3f072f27a7b5e47b69a3682febdf53) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Lowpoly_Holiday_House/Prefabs/Palm_4.prefab using Guid(fc3f072f27a7b5e47b69a3682febdf53) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a3688161e281e86931cbaa69e68c377f') in 0.0197058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/TrunkFence_01.prefab
+  artifactKey: Guid(9849c7004d8f3bd418a77e88b462e02a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/LowpolyNatureBundle/Prefab/TrunkFence_01.prefab using Guid(9849c7004d8f3bd418a77e88b462e02a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '97801927db6af02fed80a35a77105b64') in 0.0174424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Lowpoly_Holiday_House/Textures/Windows.tif
+  artifactKey: Guid(f74af5b21828cfb4fa656de4b9ee90b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Lowpoly_Holiday_House/Textures/Windows.tif using Guid(f74af5b21828cfb4fa656de4b9ee90b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '014b3bb4d419fe8d8477ccee405fce02') in 0.0276793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.375135 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/LotusLeaf_01.prefab
+  artifactKey: Guid(eb5e34adfe488ff4d9366d1d28cbe4eb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/LowpolyNatureBundle/Prefab/LotusLeaf_01.prefab using Guid(eb5e34adfe488ff4d9366d1d28cbe4eb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '686319ae0c4a92c2c9d44184dbfa58cb') in 0.0288534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Saddled/LPHorse_Saddled_White_02.prefab
+  artifactKey: Guid(895d50d54caddf84daa7bbc457e237d6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Saddled/LPHorse_Saddled_White_02.prefab using Guid(895d50d54caddf84daa7bbc457e237d6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e100373d41fafd5584545625b8052846') in 0.1122174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1566
+
+Editor requested this worker to shutdown with reason: balancing worker count downwards
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
